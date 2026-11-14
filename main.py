@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""The Key (v1) - a poem about agency.
+"""The Key (v3) - a poem about agency.
 
 Writes one fixed poem to /output/entry.txt: a son watches his father
 rent a shop on a handshake, no paper signed, and lose it all when the
-real owner arrives. Pure Python 3.13 standard library; every run
+real owner arrives. v3 keeps v2's words and re-breaks the lines for
+rhythm: the father's quiet gets its own line, and the ending falls
+in four short beats. Pure Python 3.13 standard library; every run
 writes the same bytes.
 """
 
@@ -32,13 +34,14 @@ He said, show me the paper.
 We had no paper.
 
 My father went quiet that day
-and stayed quiet. The sickness came
-the way a debt comes, slowly,
-then all at once. One mistake.
-One paper he would not sign.
+and stayed quiet.
+The sickness came the way a debt comes,
+slowly, then all at once.
 
-I still hear the key in his hand.
-Here is the money. Here is the key."""
+The key still turns.
+The lock still clicks.
+The door is not ours.
+One paper he would not sign."""
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
